@@ -1,3 +1,6 @@
+= link_to '/', title: 'Go to start page', class: 'logo' do
+  = image_tag '404.jpg'
+
 .wrapper
   .content
     .section
@@ -5,14 +8,12 @@
         .article
           %h2
             Page not found.
-            %span.error-type
-              (404)
 
           %p
             The page you were looking for could no be found.
             %br
             %br
-            = link_to 'Go to start page', '/', class: 'btn', title: ''
+            = link_to 'Go to start page', '/'
             %br
             %br
 

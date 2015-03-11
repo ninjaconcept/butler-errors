@@ -1,3 +1,6 @@
+= link_to '/', title: 'Go to start page', class: 'logo' do
+  = image_tag '422.jpg'
+
 .wrapper
   .content
     .section
@@ -5,13 +8,11 @@
         .article
           %h2
             What?
-            %span.error-type
-              (422)
 
           %p
             Your browser did something unexpected. Please contact us if the problem persists.
             %br
             %br
-            = link_to 'Go to start page', '/', class: 'btn', title: ''
+            = link_to 'Go to start page', '/'
             %br
             %br

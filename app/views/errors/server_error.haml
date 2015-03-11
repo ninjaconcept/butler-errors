@@ -1,3 +1,6 @@
+= link_to '/', title: 'Go to start page', class: 'logo' do
+  = image_tag '500.jpg'
+
 .wrapper
   .content
     .section
@@ -5,13 +8,11 @@
         .article
           %h2
             Looks like something went wrong!
-            %span.error-type
-              (500)
 
           %p
             We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.
             %br
             %br
-            = link_to 'Go to start page', '/', class: 'btn', title: ''
+            = link_to 'Go to start page', '/'
             %br
             %br
