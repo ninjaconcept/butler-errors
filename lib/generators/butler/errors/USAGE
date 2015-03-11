@@ -1,0 +1,3 @@
+To install and use dynamic error pages just do:
+
+    rails generate butler:errors:install
